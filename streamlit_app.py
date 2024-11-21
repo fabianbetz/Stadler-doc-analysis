@@ -135,12 +135,12 @@ def is_valid_summary(answers):
     return any(len(answer.strip()) > 10 for answer in answers)  # Mindesttextlänge prüfen
 
 # Streamlit App
-st.title("OpenAI PDF Analysis")
+st.title("Intelligente Vertragsanalyse")
 
 # Beschreibung des Tools
 st.markdown(
     """
-    **Dieser Chatbot analysiert PDF-Dokumente und erstellt eine übersichtliche und strukturierte Zusammenfassung.**
+    **Dieser Chatbot analysiert Vertragsdokumente und erstellt eine strukturierte Zusammenfassung basierend auf definierten Kriterien.**
     \nLaden Sie einfach Ihre Dateien hoch, und das Tool übernimmt den Rest!
     """
 )
