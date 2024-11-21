@@ -10,7 +10,7 @@ api_key = st.secrets["OPENAI_API_KEY"]
 client = OpenAI(api_key=api_key)
 
 # Feste Assistant-ID und Nachricht
-ASSISTANT_ID = "asst_pq3Mgw1G8cAoX2CtixU2wjL2"
+ASSISTANT_ID = "asst_vvaFZVcZ4wbm3yetLeB3CTgj"
 DEFAULT_MESSAGE = "Analyze the PDF following your instructions. Analyze the whole document. Execute your whole task."
 
 # Funktionen
