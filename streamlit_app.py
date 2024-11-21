@@ -127,6 +127,7 @@ def is_valid_summary(answers):
         "issue retrieving the content",
         "unable to access the content of the PDF",
         "unable to access the content",
+        "issue retrieving content",
     ]
     for answer in answers:
         for phrase in invalid_phrases:
